@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OSPF Quiz</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="rotated-text">Made in OFPPT</div>
+    <div class="container">
+        <h1>🌐 Master the OSPF Challenge! 🚀💡</h1>
+        <form id="quizForm">
+            <div class="question-container">
+                <p class="question">1. What is the purpose of OSPF?</p>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q1" value="A">
+                        A) Link State Routing Protocol
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q1" value="B">
+                        B) Distance Vector Routing Protocol
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q1" value="C">
+                        C) Hybrid Routing Protocol
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q1" value="D">
+                        D) Static Routing Protocol
+                    </label>
+                </div>
+            </div>
+            <div class="question-container">
+                <p class="question">2. Which command is used to enable OSPF on a router?</p>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q2" value="A">
+                        A) ip ospf enable
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q2" value="B">
+                        B) router ospf [process-id]
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q2" value="C">
+                        C) ospf start
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q2" value="D">
+                        D) enable ospf
+                    </label>
+                </div>
+            </div>
+            <!-- Additional questions up to 40 -->
+            <div class="question-container">
+                <p class="question">3. What does OSPF stand for?</p>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q3" value="A">
+                        A) Open Shortest Path First
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q3" value="B">
+                        B) Open Simple Path First
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q3" value="C">
+                        C) Open Standard Path First
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q3" value="D">
+                        D) Open Signal Path First
+                    </label>
+                </div>
+            </div>
+            <div class="question-container">
+                <p class="question">4. OSPF uses which type of algorithm?</p>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q4" value="A">
+                        A) Dijkstra's Algorithm
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q4" value="B">
+                        B) Bellman-Ford Algorithm
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q4" value="C">
+                        C) A* Algorithm
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q4" value="D">
+                        D) Floyd-Warshall Algorithm
+                    </label>
+                </div>
+            </div>
+            <div class="question-container">
+                <p class="question">5. In OSPF, what does the term "LSA" stand for?</p>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q5" value="A">
+                        A) Link State Advertisement
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q5" value="B">
+                        B) Link State Algorithm
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q5" value="C">
+                        C) Link Service Advertisement
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q5" value="D">
+                        D) Link Security Advertisement
+                    </label>
+                </div>
+            </div>
+            <div class="question-container">
+                <p class="question">6. OSPF routers exchange routing information using which type of message?</p>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q6" value="A">
+                        A) Hello
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q6" value="B">
+                        B) Update
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q6" value="C">
+                        C) Acknowledgment
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q6" value="D">
+                        D) Request
+                    </label>
+                </div>
+            </div>
+            <div class="question-container">
+                <p class="question">7. What is the default OSPF area?</p>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q7" value="A">
+                        A) Area 0
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q7" value="B">
+                        B) Area 1
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q7" value="C">
+                        C) Area 2
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q7" value="D">
+                        D) Area 3
+                    </label>
+                </div>
+            </div>
+            <div class="question-container">
+                <p class="question">8. What type of routing protocol is OSPF?</p>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q8" value="A">
+                        A) Link-state
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q8" value="B">
+                        B) Distance-vector
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q8" value="C">
+                        C) Hybrid
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q8" value="D">
+                        D) Static
+                    </label>
+                </div>
+            </div>
+            <div class="question-container">
+                <p class="question">9. OSPF can be configured to perform which function?</p>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q9" value="A">
+                        A) Load balancing
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q9" value="B">
+                        B) Traffic shaping
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q9" value="C">
+                        C) Firewalling
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q9" value="D">
+                        D) None of the above
+                    </label>
+                </div>
+            </div>
+            <div class="question-container">
+                <p class="question">10. Which command displays OSPF neighbor information?</p>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q10" value="A">
+                        A) show ip ospf neighbors
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q10" value="B">
+                        B) show ospf neighbor
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q10" value="C">
+                        C) display ospf neighbors
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q10" value="D">
+                        D) show ip route
+                    </label>
+                </div>
+            </div>
+            <div class="question-container">
+                <p class="question">11. What is a designated router (DR) in OSPF?</p>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q11" value="A">
+                        A) The router responsible for generating LSAs
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q11" value="B">
+                        B) The router that forwards traffic to the external networks
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q11" value="C">
+                        C) The router that manages link-state databases
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q11" value="D">
+                        D) The router that performs route summarization
+                    </label>
+                </div>
+            </div>
+            <div class="question-container">
+                <p class="question">12. In OSPF, what is the purpose of a router ID?</p>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q12" value="A">
+                        A) To identify a router uniquely within an OSPF network
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q12" value="B">
+                        B) To provide a backup for the primary IP address
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q12" value="C">
+                        C) To facilitate load balancing
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q12" value="D">
+                        D) To represent the router in routing tables
+                    </label>
+                </div>
+            </div>
+            <div class="question-container">
+                <p class="question">13. OSPF routing updates are sent in which type of packets?</p>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q13" value="A">
+                        A) LSAs
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q13" value="B">
+                        B) OSPF packets
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q13" value="C">
+                        C) Hello packets
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q13" value="D">
+                        D) Update packets
+                    </label>
+                </div>
+            </div>
+            <div class="question-container">
+                <p class="question">14. What is an OSPF area?</p>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q14" value="A">
+                        A) A logical division of OSPF networks
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q14" value="B">
+                        B) A physical location of routers
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q14" value="C">
+                        C) A layer of security in OSPF
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q14" value="D">
+                        D) A type of routing table
+                    </label>
+                </div>
+            </div>
+            <div class="question-container">
+                <p class="question">15. What is OSPF's default timer for sending hello packets?</p>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q15" value="A">
+                        A) 10 seconds
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q15" value="B">
+                        B) 30 seconds
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q15" value="C">
+                        C) 20 seconds
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q15" value="D">
+                        D) 5 seconds
+                    </label>
+                </div>
+            </div>
+            <div class="question-container">
+                <p class="question">16. What is the role of the Backup Designated Router (BDR) in OSPF?</p>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q16" value="A">
+                        A) To take over the role of the DR if it fails
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q16" value="B">
+                        B) To manage the OSPF database
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q16" value="C">
+                        C) To send routing updates
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q16" value="D">
+                        D) To act as a router on demand
+                    </label>
+                </div>
+            </div>
+            <div class="question-container">
+                <p class="question">17. What type of networks does OSPF support?</p>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q17" value="A">
+                        A) Point-to-point
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q17" value="B">
+                        B) Broadcast
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q17" value="C">
+                        C) Non-broadcast multiple access
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q17" value="D">
+                        D) All of the above
+                    </label>
+                </div>
+            </div>
+            <div class="question-container">
+                <p class="question">18. In OSPF, what does the term "ABR" stand for?</p>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q18" value="A">
+                        A) Area Border Router
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q18" value="B">
+                        B) Advanced Border Router
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q18" value="C">
+                        C) Area Base Router
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q18" value="D">
+                        D) None of the above
+                    </label>
+                </div>
+            </div>
+            <div class="question-container">
+                <p class="question">19. Which of the following is true about OSPF?</p>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q19" value="A">
+                        A) OSPF supports classful routing.
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q19" value="B">
+                        B) OSPF supports both classful and classless routing.
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q19" value="C">
+                        C) OSPF only supports classless routing.
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q19" value="D">
+                        D) OSPF does not support VLSM.
+                    </label>
+                </div>
+            </div>
+            <div class="question-container">
+                <p class="question">20. What is OSPF's administrative distance?</p>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q20" value="A">
+                        A) 110
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q20" value="B">
+                        B) 120
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q20" value="C">
+                        C) 100
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q20" value="D">
+                        D) 90
+                    </label>
+                </div>
+            </div>
+            <div class="question-container">
+                <p class="question">21. What is the maximum number of OSPF areas that can be configured on a router?</p>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q21" value="A">
+                        A) 255
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q21" value="B">
+                        B) 100
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q21" value="C">
+                        C) 50
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q21" value="D">
+                        D) 10
+                    </label>
+                </div>
+            </div>
+            <div class="question-container">
+                <p class="question">22. Which command is used to configure OSPF area on a router?</p>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q22" value="A">
+                        A) area [area-id] range
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q22" value="B">
+                        B) router ospf [process-id]
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q22" value="C">
+                        C) ospf area [area-id]
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q22" value="D">
+                        D) network [network-address] area [area-id]
+                    </label>
+                </div>
+            </div>
+            <div class="question-container">
+                <p class="question">23. What is the purpose of the OSPF database?</p>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q23" value="A">
+                        A) To store routing information
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q23" value="B">
+                        B) To store configurations
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q23" value="C">
+                        C) To store interface statistics
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q23" value="D">
+                        D) To store IP addresses
+                    </label>
+                </div>
+            </div>
+            <div class="question-container">
+                <p class="question">24. In OSPF, what does "LSA" stand for?</p>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q24" value="A">
+                        A) Link State Advertisement
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q24" value="B">
+                        B) Link State Acknowledgment
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q24" value="C">
+                        C) Link Status Announcement
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q24" value="D">
+                        D) Link State Assessment
+                    </label>
+                </div>
+            </div>
+            <div class="question-container">
+                <p class="question">25. What is the function of the OSPF Designated Router (DR)?</p>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q25" value="A">
+                        A) To reduce the number of adjacencies
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q25" value="B">
+                        B) To maintain the OSPF database
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q25" value="C">
+                        C) To send updates to all routers in a multi-access network
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q25" value="D">
+                        D) All of the above
+                    </label>
+                </div>
+            </div>
+            <div class="question-container">
+                <p class="question">26. What type of routing does OSPF use?</p>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q26" value="A">
+                        A) Path Vector
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q26" value="B">
+                        B) Link State
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q26" value="C">
+                        C) Distance Vector
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q26" value="D">
+                        D) Hybrid
+                    </label>
+                </div>
+            </div>
+            <div class="question-container">
+                <p class="question">27. Which protocol does OSPF rely on to establish neighbor relationships?</p>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q27" value="A">
+                        A) TCP
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q27" value="B">
+                        B) UDP
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q27" value="C">
+                        C) ICMP
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q27" value="D">
+                        D) IP
+                    </label>
+                </div>
+            </div>
+            <div class="question-container">
+                <p class="question">28. What is the role of the OSPF router ID?</p>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q28" value="A">
+                        A) To uniquely identify an OSPF router
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q28" value="B">
+                        B) To represent the router in routing tables
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q28" value="C">
+                        C) To facilitate route summarization
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q28" value="D">
+                        D) To backup the router's configuration
+                    </label>
+                </div>
+            </div>
+            <div class="question-container">
+                <p class="question">29. What are the types of OSPF routers?</p>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q29" value="A">
+                        A) Internal, Backbone, and Area Border Routers
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q29" value="B">
+                        B) Interior, Exterior, and Gateway Routers
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q29" value="C">
+                        C) Backbone, Edge, and Core Routers
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q29" value="D">
+                        D) Local and Remote Routers
+                    </label>
+                </div>
+            </div>
+            <div class="question-container">
+                <p class="question">30. How does OSPF determine the best path to a destination?</p>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q30" value="A">
+                        A) Based on bandwidth
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q30" value="B">
+                        B) Based on hop count
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q30" value="C">
+                        C) Based on delay
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q30" value="D">
+                        D) Based on cost
+                    </label>
+                </div>
+            </div>
+            <div class="question-container">
+                <p class="question">31. What is the main advantage of OSPF over RIP?</p>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q31" value="A">
+                        A) OSPF is faster in convergence.
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q31" value="B">
+                        B) OSPF supports larger networks.
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q31" value="C">
+                        C) OSPF uses link state information.
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q31" value="D">
+                        D) All of the above.
+                    </label>
+                </div>
+            </div>
+            <div class="question-container">
+                <p class="question">32. What does OSPF use to prevent routing loops?</p>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q32" value="A">
+                        A) Split horizon
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q32" value="B">
+                        B) Sequence numbers
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q32" value="C">
+                        C) Hold-down timers
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q32" value="D">
+                        D) Designated Router
+                    </label>
+                </div>
+            </div>
+            <div class="question-container">
+                <p class="question">33. What is the purpose of the OSPF adjacency database?</p>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q33" value="A">
+                        A) To store neighbor relationships
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q33" value="B">
+                        B) To store routing information
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q33" value="C">
+                        C) To store configurations
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q33" value="D">
+                        D) To store metrics
+                    </label>
+                </div>
+            </div>
+            <div class="question-container">
+                <p class="question">34. Which OSPF command is used to view the OSPF neighbor table?</p>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q34" value="A">
+                        A) show ip ospf neighbor
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q34" value="B">
+                        B) show ip route ospf
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q34" value="C">
+                        C) show ospf neighbor
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q34" value="D">
+                        D) display ospf neighbors
+                    </label>
+                </div>
+            </div>
+            <div class="question-container">
+                <p class="question">35. What is the function of OSPF link-state packets (LSPs)?</p>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q35" value="A">
+                        A) To send routing updates
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q35" value="B">
+                        B) To establish neighbor relationships
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q35" value="C">
+                        C) To synchronize routing tables
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q35" value="D">
+                        D) To perform route summarization
+                    </label>
+                </div>
+            </div>
+            <div class="question-container">
+                <p class="question">36. Which OSPF feature allows for efficient use of bandwidth?</p>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q36" value="A">
+                        A) OSPF area
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q36" value="B">
+                        B) OSPF summarization
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q36" value="C">
+                        C) OSPF authentication
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q36" value="D">
+                        D) OSPF cost
+                    </label>
+                </div>
+            </div>
+            <div class="question-container">
+                <p class="question">37. What is the purpose of the OSPF area ID?</p>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q37" value="A">
+                        A) To uniquely identify an OSPF area
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q37" value="B">
+                        B) To define the area type
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q37" value="C">
+                        C) To manage route summarization
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q37" value="D">
+                        D) To facilitate authentication
+                    </label>
+                </div>
+            </div>
+            <div class="question-container">
+                <p class="question">38. How does OSPF handle route redistribution?</p>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q38" value="A">
+                        A) Through route maps
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q38" value="B">
+                        B) Automatically without configuration
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q38" value="C">
+                        C) Through manual redistribution
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q38" value="D">
+                        D) Through a special protocol
+                    </label>
+                </div>
+            </div>
+            <div class="question-container">
+                <p class="question">39. Which of the following is a type of OSPF area?</p>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q39" value="A">
+                        A) Stub area
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q39" value="B">
+                        B) Totally stubby area
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q39" value="C">
+                        A) Not-so-stubby area
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q39" value="D">
+                        D) All of the above
+                    </label>
+                </div>
+            </div>
+            <div class="question-container">
+                <p class="question">40. What is the primary metric used by OSPF?</p>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q40" value="A">
+                        A) Bandwidth
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q40" value="B">
+                        B) Latency
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q40" value="C">
+                        C) Hop count
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q40" value="D">
+                        D) Cost
+                    </label>
+                </div>
+            </div>
+            <!-- Repeat similar blocks until you reach question 40 -->
+
+            <button type="button" class="submit-btn" onclick="checkAnswers()">Submit Answers</button>
+            <button type="button" class="reset-btn" onclick="resetQuiz()">Start Again</button>
+            <div id="result" class="result"></div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
